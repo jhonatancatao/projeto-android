@@ -42,7 +42,7 @@ header {
 }
 
 header#img {
-    background: black url(imagens/androidfundo.jpg) center center no-repeat fixed;
+    background: black url(imagens/androidfundo.jpg) top center no-repeat local;
     background-size: cover;
 }
 
@@ -71,7 +71,6 @@ header > p {
 nav {
     padding: 10px;
     display: flex;
-    font-weight: bold;
     justify-content: center;
     padding-top: 15px;
     gap: 50px;
@@ -81,13 +80,15 @@ nav > a {
     color: var(--cor4);
     padding: 10px;
     border-radius: 5px;
-    text-decoration: none;  
+    font-weight: bold;
+    text-decoration: none;
     transition-duration: 0.5s;
 }
 
 nav > a:hover {
     background-color: var(--cor1);
     color: var(--cor5);
+    
 }
 
 main {
