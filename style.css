@@ -52,12 +52,12 @@ header > h1 {
     font-size: 3.3em;
     font-weight: normal;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.267);
 }
 
 header > p {
     font-family: var(--fonte-padrão);
-    font-size: 1.4em;
+    font-size: 1.2em;
     max-width: 500px;
     margin: auto;
     padding-bottom: 50px;
@@ -65,7 +65,7 @@ header > p {
     padding-left: 10px;
     color: white;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 nav {
