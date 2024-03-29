@@ -42,14 +42,14 @@ header {
 }
 
 header#img {
-    background: black url(imagens/androidfundo.jpg) center center fixed;
+    background: black url(imagens/androidfundo.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
 header > h1 {
-    color: white ;
+    color: var(--cor3);
     font-family: var(--fonte-destaque);
-    font-size: 3em;
+    font-size: 4em;
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
@@ -57,7 +57,7 @@ header > h1 {
 
 header > p {
     font-family: var(--fonte-padrão);
-    font-size: 1.2em;
+    font-size: 1.4em;
     max-width: 500px;
     margin: auto;
     padding-bottom: 50px;
@@ -65,9 +65,11 @@ header > p {
     padding-left: 10px;
     color: white;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-weight: bold;
 }
 
 nav {
+    padding: 10px;
     display: flex;
     justify-content: center;
     padding-top: 15px;
@@ -76,14 +78,15 @@ nav {
 
 nav > a {
     color: var(--cor4);
+    padding: 10px;
+    border-radius: 5px;
     text-decoration: none;
-    font-size: 16px;
-    font-weight: bolder;  
+    font-weight: bold;  
+    transition-duration: 0.5s;
 }
 
 nav > a:hover {
-    border-bottom: 2px solid var(--cor5);
-   font-size: 17px;
+    background-color: var(--cor1);
     color: var(--cor5);
 }
 
