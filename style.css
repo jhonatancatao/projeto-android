@@ -71,6 +71,7 @@ header > p {
 nav {
     padding: 10px;
     display: flex;
+    font-weight: bold;
     justify-content: center;
     padding-top: 15px;
     gap: 50px;
@@ -80,8 +81,7 @@ nav > a {
     color: var(--cor4);
     padding: 10px;
     border-radius: 5px;
-    text-decoration: none;
-    font-weight: bolder;  
+    text-decoration: none;  
     transition-duration: 0.5s;
 }
 
@@ -107,7 +107,7 @@ main h1 {
     font-family: var(--fonte-titulos);
     text-transform: uppercase;
     text-align: center;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 1.9em;
 }
 
