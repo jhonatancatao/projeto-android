@@ -47,7 +47,7 @@ header#img {
 }
 
 header > h1 {
-    color: #8bcd22;
+    color: green;
     font-family: var(--fonte-destaque);
     font-size: 3.3em;
     font-weight: normal;
